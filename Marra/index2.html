@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pet Shop Calculator</title>
+    <!-- Adicionando Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navbar (opcional) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Canil do Eduardo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Calculadora de Pet Shop</h1>
+        <div class="form-group">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="pequenos">Cães Pequenos:</label>
+            <input type="number" id="pequenos" name="pequenos" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="grandes">Cães Grandes:</label>
+            <input type="number" id="grandes" name="grandes" class="form-control">
+        </div>
+
+        <button onclick="calcular()" class="btn btn-primary">Calcular</button>
+
+        <div id="resultado" class="mt-4"></div>
+        <div id="map" style="height: 250px; width: 100%;" class="mt-4"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Canil do Eduardo. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+    <!-- Bootstrap JS e Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

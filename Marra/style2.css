@@ -1,0 +1,68 @@
+/* Estilos globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    font-family: Arial, sans-serif; /* Fonte consistente */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Cor escura para a navbar, unificada */
+    color: white; /* Texto branco para melhor contraste */
+}
+
+.nav-link, .navbar-brand {
+    color: white; /* Garante que o texto da navbar seja branco */
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #ccc; /* Cor clara no hover para feedback visual */
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40; /* Cor escura para o footer, unificada */
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-muted {
+    color: #6c757d; /* Texto mais suave para o footer */
+}
+
+/* Formatação específica para elementos do formulário e botões */
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os campos do formulário */
+}
+
+input[type="date"], input[type="number"], button {
+    width: 100%; /* Aproveitamento total da largura para melhor visualização */
+    padding: 8px 12px; /* Padding adequado para toque */
+    border-radius: 4px; /* Bordas arredondadas para os inputs e botões */
+    border: 1px solid #ccc; /* Borda sutil para definir os elementos */
+}
+
+button {
+    background-color: #007bff; /* Azul Bootstrap para consistência */
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Escurece o botão no hover */
+}
+
+#map {
+    margin-top: 20px; /* Espaço antes do mapa */
+    height: 400px; /* Altura adequada para boa visualização */
+}
