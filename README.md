@@ -27,19 +27,19 @@ Abra o arquivo `index.html` em seu navegador web.
 ### Formato da Entrada
 No campo de entrada, insira os dados no formato:
 
-```php
+
 <data> <quantidade de cães pequenos> <quantidade cães grandes>
-```php
+
 03/08/2018 3 5
-```
+
 
 Formato da Saída
 
 Após inserir os dados e clicar no botão de submissão, o resultado será exibido na tela no formato:
 
-```arduino
+
 Nome do melhor petshop e preço total dos banhos
-```
+
 
 Exemplo:
 
