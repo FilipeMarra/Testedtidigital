@@ -28,9 +28,13 @@ Abra o arquivo `index.html` em seu navegador web.
 No campo de entrada, insira os dados no formato:
 
 
-<data> <quantidade de cães pequenos> <quantidade cães grandes>
+<data> 
+<quantidade de cães pequenos> 
+<quantidade cães grandes>
 
-03/08/2018 3 5
+03/08/2018 
+3 
+5
 
 
 Formato da Saída
@@ -38,13 +42,13 @@ Formato da Saída
 Após inserir os dados e clicar no botão de submissão, o resultado será exibido na tela no formato:
 
 
-Nome do melhor petshop e preço total dos banhos
+Nome do melhor petshop e preço total dos banhos e mapa.
 
 
 Exemplo:
 
 
-Meu Canino Feliz R$ 250,00
+Melhor petshop: Vai Rex, Distância: 1.70 km, Preço total: R$80.00 e um mapa.
 
 
 Lista de Premissas Assumidas:
